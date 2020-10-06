@@ -1,9 +1,14 @@
 import React from "react";
+import Form from "./components/Form";
+import PersonalDetails from "./components/PersonalDetails";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React!</h1>
+      <Form />
+      <PersonalDetails />
+      <Profile />
     </div>
   );
 }
